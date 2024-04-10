@@ -1,3 +1,9 @@
+import NavigationBar from "@/components/navigation-bar";
+
 export default function GroupScreen() {
-  return <div>GroupScreen</div>;
+  return (
+    <div>
+      <NavigationBar />
+    </div>
+  );
 }

@@ -1,0 +1,15 @@
+@import "bootstrap/scss/bootstrap";
+body {
+  margin: 0;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  border: none;
+  min-width: 20rem;
+  background-color: transparent;
+}
