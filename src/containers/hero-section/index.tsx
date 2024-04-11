@@ -3,11 +3,10 @@ import React from "react";
 export default function HeroSection(): React.JSX.Element {
   return (
     <div
-      className="text-white d-flex flex-column justify-content-end"
+      className="text-white d-flex flex-column justify-content-end padding-x-lg"
       style={{
         backgroundImage: "url(group-bg.png)",
         height: 440,
-        paddingLeft: 190,
         paddingBottom: 70,
       }}
     >
