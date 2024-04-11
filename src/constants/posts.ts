@@ -1,4 +1,6 @@
-const posts = [
+import { IPost } from "@/types";
+
+const posts:IPost[] = [
   {
     image: "article1.png",
     title: "What if famous brands had regular fonts? Meet RegulaBrands!",
@@ -8,7 +10,7 @@ const posts = [
     type: "article",
   },
   {
-    image: "article1.png",
+    image: "article2.png",
     title:
       "Tax Benefits for Investment under National Pension Scheme launched by Government",
     postText: `I’ve worked in UX for the better part of a decade. From now on, I plan to rei…`,
@@ -17,7 +19,7 @@ const posts = [
     type: "education",
   },
   {
-    image: "article1.png",
+    image: "article3.png",
     title: "Finance & Investment Elite Social Mixer @Lujiazui",
     postedBy: "ronaljones",
     views: "1.4k",
@@ -27,7 +29,6 @@ const posts = [
     date: "Fri, 12 Oct,2018",
   },
   {
-    image: "article1.png",
     title: "Software Developer",
     postedBy: "josephgray",
     views: "1.4k",
