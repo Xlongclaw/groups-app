@@ -13,4 +13,7 @@ input {
   min-width: 20rem;
   background-color: transparent;
   font-size: 14px;
+  &:focus {
+    outline: none;
+  }
 }
