@@ -9,7 +9,7 @@ export default function PostsNavigator(): React.JSX.Element {
         <TabSelector />
         <ButtonGroup />
       </div>
-      <div style={{height:2,backgroundColor:'gray',opacity:0.2, marginTop:-3}}></div>
+      <div style={{height:1,backgroundColor:'gray',opacity:0.2, marginTop:-3}}></div>
     </div>
   );
 }
